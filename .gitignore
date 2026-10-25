@@ -1,0 +1,12 @@
+# Compiled Java files
+*.class
+
+# Generated prime output
+/primes.txt
+
+# IDE settings
+.idea/
+*.iml
+
+# Local recovery backups
+/.git-recovery-*/
