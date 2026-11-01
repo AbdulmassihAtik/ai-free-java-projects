@@ -55,6 +55,29 @@ This here is a simple cli game, a recreation of the famous Minesweeper
 - Left-click (place a flag): f
 - Reveal all fields: enter
 
+### mandelbrot
+
+- This programm draws an interactive Mandelbrot fractal in the terminal.
+
+<p>
+<img src="docs/media/mandelbrot/mandelbrot-1.jpg" width="48%">
+<img src="docs/media/mandelbrot/mandelbrot-2.jpg" width="48%">
+</p>
+
+<p>
+<img src="docs/media/mandelbrot/mandelbrot-3.jpg" width="32%">
+<img src="docs/media/mandelbrot/mandelbrot-4.jpg" width="32%">
+<img src="docs/media/mandelbrot/mandelbrot-5.jpg" width="32%">
+</p>
+
+#### Usage
+
+- Run with `java mandelbrot.java [optional scale (default 4)]`
+- controls (must be confirmed with 'enter'):
+  - w, a, s, d: move the view
+  - e, q: zoom in and out
+  - r, f: increase and decrease the iteration limit
+
 ### racamans
 - This programm walks through the Recamán sequence up the the integer.MAX_VALUE-2 and prints every 'holdout' (smallest number that has not been seen yet) and the step at which they were found.
 
